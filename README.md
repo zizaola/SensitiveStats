@@ -2,8 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/534172863.svg)](https://zenodo.org/badge/latestdoi/534172863)
 [![PyPI package](https://img.shields.io/pypi/v/acro.svg)](https://pypi.org/project/acro)
+[![Conda](https://img.shields.io/conda/vn/conda-forge/acro.svg)](https://github.com/conda-forge/acro-feedstock)
 [![Python versions](https://img.shields.io/pypi/pyversions/acro.svg)](https://pypi.org/project/acro)
-[![Codacy](https://app.codacy.com/project/badge/Grade/a125e023fd7744d79cb42cd31f6ea05e)](https://app.codacy.com/gh/AI-SDC/ACRO/dashboard)
 [![codecov](https://codecov.io/gh/AI-SDC/ACRO/branch/main/graph/badge.svg?token=VVHI41N05F)](https://codecov.io/gh/AI-SDC/ACRO)
 
 ACRO is a free and open source tool that supports the semi-automated checking of research outputs (SACRO) for privacy disclosure within secure data environments. SACRO is a framework that applies best-practice principles-based [statistical disclosure control](https://en.wikipedia.org/wiki/Statistical_disclosure_control) (SDC) techniques on-the-fly as researchers conduct their analysis. SACRO is designed to assist human checkers rather than seeking to replace them as with current automated rules-based approaches.
@@ -25,12 +25,18 @@ Additional programming languages used by researchers are supported by providing 
 
 ### Installation
 
-ACRO can be installed via [PyPI](https://pypi.org/project/acro/).
+ACRO is available through [PyPI](https://pypi.org/project/acro/) and [Conda](https://github.com/conda-forge/acro-feedstock).
 
-If installed in this way, the example [notebooks](notebooks) and the [data](data) files used therein will need to be copied from the repository.
+If installed in this way, the [examples](notebooks) and [data](data) files used therein will need to be copied from the repository.
 
+PyPI:
 ```
 $ pip install acro
+```
+
+Conda:
+```
+$ conda install acro
 ```
 
 ### Examples
